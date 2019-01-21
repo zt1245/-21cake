@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+		<script src="../javascript/register.js"></script>
+		<script src="../javascript/jquery.min.js"></script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<div class="header">
+			<div class="header_nav container">
+				<a href="index.html" class="header_logo">
+					<img src="../images/logo.png" alt="21 cake"/>
+				</a>
+				<ul class="header_box">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="shopping.html">蛋糕</a></li>
+					<li><a href="#">冰激凌</a></li>
+					<li><a href="#">咖啡下午茶</a></li>
+					<li><a href="#">咖啡全国送</a></li>
+					<li><a href="#">企业专区</a></li>
+				</ul>
+				<div class="header_user">
+					<div href="#" class="app_down">App下载
+						<div class="header_code">
+							<img src="../images/header_code.png"/>
+							<p>下载更多优惠</p>
+						</div>
+					</div>
+					<div class="city_select">
+						<span>北京</span>
+						<i></i>
+						<ul class="select_city">
+							<li><a href="#">上海</a></li>
+							<li><a href="#">杭州</a></li>
+							<li><a href="#">深圳</a></li>
+							<li><a href="#">广州</a></li>
+							<li><a href="#">天津</a></li>
+							<li><a href="#">无锡</a></li>
+							<li><a href="#">苏州</a></li>
+						</ul>
+					</div>
+					<div class="message">消息
+						<ul class="header_info">
+							<li><a href="#">通知</a></li>
+							<li><a href="#">物流</a></li>
+						</ul>
+					</div>
+					<div class="login_register">
+						<a href="javascript:;" class="myname"></a>
+						<a href="login.html" class="login">登录/</a>
+						<a href="register.html" class="register">注册</a>
+						<ul>
+							<li><a href="javascript:;">我的订单</a></li>
+							<li><a href="javascript:;">我的优惠</a></li>
+							<li><a href="javascript:;" class="exit">退出登录</a></li>
+						</ul>
+					</div>
+					<a href="car.html" class="cat">
+						<i></i>
+						<span></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--导航结束-->
+		<div class="content">
+			<div class="login_top">
+				<h2 class="active">用户注册</h2>
+			</div>
+			<div class="login_form">
+				<div class="form">
+					<input type="text" name="uname" id="uname" placeholder="请输入用户名" />
+					<div class="err_text user">
+						<i></i>
+						<span class="active">请输入用户名，2~20位，由字母、数字和下划线组成</span>
+						<span>用户名不能为空</span>
+						<span>用户名已存在</span>
+					</div>
+					<div class="text_able">
+						<i></i>
+						<span>可用</span>
+					</div>
+					<input type="password" name="upwd" id="upwd" placeholder="请输入密码" />
+					<div class="err_text pass">
+						<i></i>
+						<span class="active">请输入8~20字符，需同时包含英文和数字</span>
+					</div>
+					<!--<input type="password" name="re_pwd" id="re_pwd" placeholder="确认密码" />
+					<div class="err_text re_pass">
+						<i></i>
+						<span class="active">请输入密码</span>
+						<span>密码不一致，请重新输入</span>
+					</div>-->
+					<!--<input type="text" placeholder="请输入验证码"/>
+					<div class="verificate_code"></div>
+					<div class="err_text v_code">
+						<i></i>
+						<span class="active">请输入验证码</span>
+						<span>验证码输入错误</span>
+					</div>-->
+					<input type="submit" value="注册" class="sub"/>
+					<input type="checkbox" name="remeber" id="rember" checked="checked" />已阅读并同意
+					<a href="#">21客会员协议</a>和
+					<a href="#">隐私保护政策</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
